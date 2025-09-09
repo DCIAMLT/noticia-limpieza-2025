@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticia Institucional - Alcaldía de Los Taques</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Encabezado de la Página - Mantiene la misma estética que el portal principal -->
+    <header class="bg-blue-800 text-white p-4 shadow-lg flex justify-between items-center fixed top-0 left-0 right-0 z-50">
+        <!-- Título Principal -->
+        <h1 class="flex-grow text-center text-sm sm:text-lg md:text-xl font-bold">Dirección de Comunicación e Información de la Alcaldía del Municipio Los Taques</h1>
+        <!-- Imagen de la Alcaldía -->
+        <div class="flex-shrink-0 ml-4">
+            <img src="https://i.ibb.co/jvgDZ83S/Los-Taques-20250909-071627-0001.png" 
+                 onerror="this.src='https://placehold.co/80x80/60a5fa/ffffff?text=LOGO'" 
+                 alt="Logo de la Alcaldía de Los Taques" 
+                 class="w-16 h-16 sm:w-20 sm:h-20 rounded-md shadow-lg">
+        </div>
+    </header>
+
+    <!-- Contenido de la Noticia -->
+    <main class="container mx-auto mt-28 mb-12 px-4 flex-grow">
+        <article class="bg-white p-6 md:p-12 rounded-lg shadow-xl">
+            <!-- 
+                1. TÍTULO DE LA NOTICIA 
+                Reemplaza el texto "Gran Jornada de Limpieza y Recuperación de Espacios Públicos" por el título de tu noticia.
+            -->
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-blue-800 text-center mb-4">Gran Jornada de Limpieza y Recuperación de Espacios Públicos</h1>
+            
+            <!-- 
+                2. AUTOR Y 3. FECHA Y HORA DE ÚLTIMA ACTUALIZACIÓN
+                Modifica el nombre del autor y la fecha y hora.
+            -->
+            <div class="text-center text-gray-500 text-sm mb-8">
+                <p><span class="font-semibold">Autor:</span> Dirección de Comunicaciones</p>
+                <p>Última actualización: 9 de septiembre de 2025, 12:30 PM</p>
+            </div>
+
+            <!-- 
+                4. EXPLICACIÓN COMPLETA DE LA NOTICIA
+                Aquí puedes colocar todo el contenido de la noticia. Puedes usar etiquetas <p> para párrafos y <strong> para resaltar texto.
+            -->
+            <div class="prose max-w-none text-gray-700 leading-relaxed text-justify mb-8">
+                <p class="mb-4">Con el objetivo de fomentar la participación ciudadana y mejorar la calidad de vida en el municipio, la Alcaldía de Los Taques, en colaboración con diversas organizaciones comunitarias, llevó a cabo una exitosa <strong>Jornada Integral de Limpieza y Recuperación de Espacios Públicos</strong> en el sector de La Bocaina.</p>
+                <p class="mb-4">La actividad contó con la presencia de un gran número de voluntarios, quienes se unieron para embellecer parques, plazas y calles. Las tareas incluyeron desmalezamiento, recolección de residuos sólidos, siembra de árboles ornamentales y pintura de aceras y brocales. El Alcalde del Municipio Los Taques, en su intervención, destacó la importancia de estas iniciativas para construir una comunidad más unida y comprometida con el desarrollo local.</p>
+                <p class="mb-4">"Esta jornada demuestra que trabajando juntos, gobierno y comunidad, podemos lograr grandes cambios. Agradezco a cada uno de los participantes por su dedicación y esfuerzo. Los Taques es un municipio que se construye día a día con el trabajo de todos", expresó el mandatario municipal.</p>
+                <p>La Dirección de Comunicación e Información seguirá informando sobre futuras actividades y eventos que promuevan el bienestar de la ciudadanía.</p>
+            </div>
+
+            <!-- 
+                5. FOTOS RELACIONADAS CON LA NOTICIA
+                Puedes añadir tus propias imágenes aquí. Simplemente reemplaza la URL de la imagen en la etiqueta <img>.
+                Puedes agregar tantas fotos como desees.
+            -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+                <img src="https://i.ibb.co/KphtwhTg/74215155-the-gardener-is-cleaning-the-lawn-full-of-fallen-leaves.jpg" alt="Descripción de la foto 1" class="rounded-lg shadow-md w-full h-auto">
+                <img src="https://i.ibb.co/bMDgk6m0/jardinero-weedwacker-cortando-cesped-jardin-329181-20539.jpg" alt="Descripción de la foto 2" class="rounded-lg shadow-md w-full h-auto">
+                <img src="https://i.ibb.co/G30wRN0H/persona-que-usa-aspiradora-limpiar-cesped-861255-8.jpg" alt="Descripción de la foto 3" class="rounded-lg shadow-md w-full h-auto">
+                <img src="https://i.ibb.co/gM2xrFPB/trabajador-que-opera-soplador-hojas-servicio-pesado-parque-ciudad-quitar-hojas-caidas-otono-servicio.jpg" alt="Descripción de la foto 4" class="rounded-lg shadow-md w-full h-auto">
+            </div>
+        </article>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto text-center text-sm md:text-base">
+            <p>&reg; Derechos Reservados, 2025.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
